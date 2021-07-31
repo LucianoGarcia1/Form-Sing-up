@@ -1,0 +1,125 @@
+.wellcome-login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    border: 1px solid black;
+    min-width: 50%;
+    padding: 10px 10px 10px 70px;
+    border-radius: 5px;
+    background-image: url("../Img/usuario-de-midia-social.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 26px;
+}
+
+input[type="text"]::placeholder{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+input[type="email"]{
+    border: 1px solid black;
+    min-width: 50%;
+    padding: 10px 10px 10px 70px;
+    border-radius: 5px;
+    background-image: url("../Img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 26px;
+}
+
+input[type="email"]::placeholder{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+input[type="password"]{
+    border: 1px solid black;
+    min-width: 50%;
+    padding: 10px 10px 10px 70px;
+    border-radius: 5px;
+    background-image: url("../Img/padlock\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 26px;
+}
+
+input[type="password"]::placeholder{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+    min-width: 60%;
+    transition: .5s;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #ff0000 50%, #000000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+span{
+    color: black;
+    font-size: 18px;
+}
+
+
+nav, ul, li, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]{
+    padding: 8px 40px;
+    background-image: linear-gradient(to bottom, #ff0000 50%, #000000 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+}
