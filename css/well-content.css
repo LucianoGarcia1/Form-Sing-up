@@ -1,0 +1,43 @@
+.wellcome-cotent{
+    background: linear-gradient(to bottom, #ff0000 50%, #000000 100%);
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+p{
+    width: 450px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 40px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
