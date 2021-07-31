@@ -24,7 +24,7 @@ input[type="text"]{
     min-width: 50%;
     padding: 10px 10px 10px 70px;
     border-radius: 5px;
-    background-image: url("../Img/usuario-de-midia-social.png");
+    background-image: url("Img/usuario-de-midia-social.png");
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 26px;
@@ -42,7 +42,7 @@ input[type="email"]{
     min-width: 50%;
     padding: 10px 10px 10px 70px;
     border-radius: 5px;
-    background-image: url("../Img/mail.png");
+    background-image: url("Img/mail.png");
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 26px;
@@ -60,7 +60,7 @@ input[type="password"]{
     min-width: 50%;
     padding: 10px 10px 10px 70px;
     border-radius: 5px;
-    background-image: url("../Img/padlock\ \(1\).png");
+    background-image: url("Img/padlock\ \(1\).png");
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 26px;
