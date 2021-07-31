@@ -1,0 +1,46 @@
+@import url(../css/form.css);
+@import url(../css/well-content.css);
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+
+@media screen and (max-width:1024px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"]{
+        min-width: 35%;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width:768px){
+    input[type="text"], input[type="email"], input[type="password"]{
+        min-width: 64%;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+        min-width: 72%;
+    }
+}
